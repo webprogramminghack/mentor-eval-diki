@@ -1,0 +1,14 @@
+@import '../variables/fonts';
+@import '../functions/rem-calc';
+
+:root {
+  font-family: $font-family-outfit;
+  background: #f5f5f5;
+  color: #000;
+  font-weight: 400;
+}
+
+body {
+  font-size: rem-calc(13);
+  line-height: rem-calc(17);
+}
